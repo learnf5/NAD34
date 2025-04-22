@@ -8,5 +8,5 @@ until sudo scp /tmp/nginx-one-eval.key nginx:/etc/ssl/nginx/nginx-repo.key || ((
 until sudo scp /tmp/nginx-one-eval.jwt nginx:/etc/nginx/license.jwt || (( count++ > 5 )); do sleep 5; done
 
 # restart NGINX
-sudo ssh nginx systemctl stop nginx
-sudo ssh nginx systemctl start nginx
+sudo ssh nginx sudo systemctl stop nginx
+sudo ssh nginx sudo systemctl start nginx
