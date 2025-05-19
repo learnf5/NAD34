@@ -16,3 +16,6 @@ sudo scp /tmp/return_test.bak                              nginx:/etc/nginx/conf
 
 curl --silent --remote-name-all --output-dir /tmp https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/lab04/Lab4_index.html
 sudo scp /tmp/Lab4_index.html                              nginx:/home/ubuntu/public_html/index.html
+
+curl --silent --remote-name-all --output-dir /tmp https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/lab04/my404.html
+sudo scp /tmp/my404.html                              nginx:/home/ubuntu/public_html/my404.html
