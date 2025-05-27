@@ -22,5 +22,5 @@ sudo scp /tmp/return_test.bak                              nginx:/etc/nginx/conf
 curl --silent --remote-name-all --output-dir /tmp https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/lab06/variable_test.bak
 sudo scp /tmp/variable_test.bak                              nginx:/etc/nginx/conf.d/
 
-curl --silent --remote-name-all --output-dir /tmp https://raw.githubusercontent.com/learnf5/v/main/lab08/sampleapp.conf
+curl --silent --remote-name-all --output-dir /tmp https://raw.githubusercontent.com/learnf5/$COURSE_ID/main/lab08/sampleapp.conf
 sudo scp /tmp/sampleapp.conf                              nginx:/etc/nginx/conf.d/
