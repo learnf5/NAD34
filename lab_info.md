@@ -1,4 +1,4 @@
-There are 3 lab systems: **NGINX Server**, **Student Workstation**, and the **Backend Server**. 
+There are 3 lab systems: **Student Workstation**, **NGINX Server**, and the **Backend Server**. 
 
 The **Student Workstation** is an Ubuntu Linux system that is a graphical system which will be your starting point for all labs. Student Workstation and NGINX Server communicate on the **External** 10.10/16 network. 
 
